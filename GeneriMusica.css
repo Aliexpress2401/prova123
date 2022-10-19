@@ -1,0 +1,308 @@
+body {
+  width:100%;
+  height:100%;
+	margin:0;
+	font-family: Verdana, Geneva, "DejaVu Sans", sans-serif;
+	padding: 0px;
+  box-sizing: border-box; 
+} 
+
+header {
+	position: relative;
+	top: 100px;
+	text-align: center;
+	padding: 10px;
+	border-style: none none solid none;
+	border-bottom-color: white;
+	background-color:black;
+  	border-width: 5px;
+	width: 100%;
+}
+
+nav{
+  display: flex;
+  position: fixed;
+	width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: black;
+  border-color: white;
+}
+
+#logo{
+  color:white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.nav-links li{
+  list-style: none;
+}
+
+#home{
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#alimusic{
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#alidownload{
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#sign-in{
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#home:hover{
+  color:orange;
+  font-size: 18px;
+}
+#alimusic:hover{
+  color:#E00815;
+  font-size: 18px;
+}
+#alidownload:hover{
+  color:rgb(23, 23, 211);
+  font-size: 18px;
+}
+#sign-in:hover{
+  color:rgb(185, 7, 185);
+  font-size: 18px;
+}
+
+h1{
+    text-align: center;
+	  color: white;
+    font-size: 55px;
+}
+h2{
+    text-align: center;
+    top: 25%;
+	color: white;
+}
+h3{
+  text-align: left;
+  top: 30%;
+  color: white;
+  margin-left: 10%;
+}
+p{
+  text-align: justify;
+  color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+
+.spazio{
+  border: 10%;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  /* font-size: 45px; */
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#container_musica {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+}
+
+@media screen and (max-width: 300px) {
+  #container_musica {
+    flex-direction: column !important;
+  }
+}
+
+
+#blocco1 {
+  display: block;
+	border-radius: 25px;
+	background: orange;
+	padding: 20px; 
+	width: 20%;
+	height: 5%; 
+	text-align: center;
+	top: 350px;
+	left: 5%;
+  transition: 1s;
+  float: left;
+}
+
+#blocco2 {
+	border-radius: 25px;
+  display: block;
+	background: #E00815;
+	padding: 20px; 
+	width: 20%;
+	height: 5%; 
+	text-align: center;
+	top: 350px;
+	left: 25%;
+  transition: 1s;
+  float: left;
+}
+
+#blocco3 {
+	border-radius: 25px;
+  display: block;
+	background: #1F003F;
+	padding: 20px; 
+	width: 20%;
+	height: 5%; 
+	text-align: center;
+	top: 350px;
+	left: 42.5%;
+  transition: 1s;
+  float: left;
+}
+
+#blocco4 {
+	border-radius: 25px;
+  display: block;
+	background: blue;
+	padding: 20px; 
+	width: 20%;
+	height: 5%; 
+	text-align: center;
+	top: 350px;
+	right: 25%;
+  transition: 1s;
+  float: left;
+}
+
+#blocco5 {
+	border-radius: 25px;
+  display: block;
+	background: purple;
+	padding: 20px; 
+	width: 20%;
+	height: 5%; 
+	text-align: center;
+	top: 350px;
+	right: 5%;
+  transition: 1s;
+  float: left;
+}
+
+#blocco1:hover{
+	transform: rotate(360deg);
+}
+#blocco2:hover {
+	transform: rotate(360deg);
+}
+#blocco3:hover {
+	transform: rotate(360deg);
+}
+#blocco4:hover {
+	transform: rotate(360deg);
+}
+#blocco5:hover {
+	transform: rotate(360deg);
+}
+
+#nota{
+  width: 50%;
+  height: 50%; 
+}
+
+#pop{
+  width: 50%;
+  height: 50%; 
+}
+
+#dance{
+  width: 50%;
+	height: 50%; 
+}
+
+#hiphop{
+  width: 50%;
+	height: 50%; 
+}
+
+#studio{
+  width: 50%;
+	height: 50%; 
+}
+
+.container_info {
+  position: relative;
+}
+
+.info {
+  position:absolute;
+  background-color: black;
+  color: #eee;
+  cursor: pointer;
+  padding: 18px;
+  width: 10%;
+  border-color: white;
+  border-radius: 2%;
+  text-align: center;
+  outline: none;
+  font-size: 20px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 8%;
+}
+
+.active, .collapsible:hover {
+  background-color: black;
+}
+
+.content {
+  margin-top: 10%;
+  padding: 0 18px;
+  position:absolute;
+  display: none;
+  overflow: hidden;
+}

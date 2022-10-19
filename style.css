@@ -1,0 +1,140 @@
+body {
+	margin:0;
+	font-family: Verdana, Geneva, "DejaVu Sans", sans-serif;
+}
+
+a:visited {
+    text-decoration: none;
+	color:white;
+}
+
+a:link {
+    text-decoration: none;
+	color:white;
+}
+
+#facebook{
+    position:absolute;
+    top: 3%;
+    width: auto;
+    height: 5%;
+    right: 8%;
+}
+
+#instagram{
+    position:absolute;
+    top: 3%;
+    width: auto;
+    height: 5%;
+    right: 5%;
+}
+
+#youtube{
+    position:absolute;
+    top: 3%;
+    width: auto;
+    height: 5%;
+    right: 2%;
+}
+
+
+#bloccosx{
+	border-radius: 5%;
+	background: white;
+	padding: 4%; 
+	width: 35%;
+	height: 45%; 
+	text-align: center;
+	color:black;
+	position: absolute;
+	top: 50%;
+	left: 3%;
+	float: left;
+
+}
+
+.imgplay{
+	position: absolute;
+	top: 70%;
+	left: 15%;
+	width: auto;
+	height: 30%; 
+}
+
+#bloccodx{
+	border-radius: 5%;
+	background: white;
+	padding: 4%; 
+	width: 35%;
+	height: 45%; 
+	text-align: center; 
+	color:black;
+	position: absolute;
+	top: 50%;
+	right: 3%;
+	float: right;
+
+}
+
+.imgdownl{
+	position: absolute;
+	top: 62.5%;
+	right: 10%;
+}
+
+h3 {
+	text-shadow: 2px 2px 5px red;
+}
+
+.infondo{
+	position: fixed;
+	bottom: 0;
+	left: 2%;
+	font-size: 15px; 
+	color: black;
+}
+
+.accedi{
+	display:inline-block;
+    padding:0.6em 1em;
+    border:none;
+    margin:0.2em 0.1em;
+	top:2%;
+	left:2%;
+    box-sizing: border-box;
+    text-decoration:none;
+    color:black;
+    border-radius:3em;
+    text-align:center;
+    transition: 0.1s;
+    background:white;
+    cursor:pointer;
+    font-weight:bold;
+    letter-spacing: 0.05em;
+}
+
+.accedi:hover{
+	background:lightblue;
+}
+
+.iscriviti{
+	display:inline-block;
+    padding:0.6em 1em;
+    border:none;
+    margin:0.2em 0.1em;
+	top: 2%;
+    box-sizing: border-box;
+    text-decoration:none;
+    color:black;
+    border-radius:3em;
+    text-align:center;
+    transition: 0.1s;
+    background:white;
+    cursor:pointer;
+    font-weight:bold;
+    letter-spacing: 0.05em;
+}
+
+.iscriviti:hover{
+	background:plum;
+}
